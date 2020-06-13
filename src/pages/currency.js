@@ -86,7 +86,7 @@ class Conversion extends React.Component {
 					   From_Currency:
 						<select value={this.state.from_currency} onChange={this.handleFromCurrency}>
 							{this.currencies.map((curr) => (
-							<option value={curr.currency}>{curr.name}</option>
+							<option value={curr.currency}> {curr.name} </option>
 						))}</select>
 					</label>
 
